@@ -32,7 +32,7 @@ int main() {
 	Yolov8Onnx task_detect_onnx;
 	task_detect_onnx.ReadModel(detect_model_path, true);
 	cv::VideoCapture cap;
-	cap.open("rtsp://admin:yyit86536280@192.168.1.119");
+	cap.open("rtsp://admin:pwd@ip");
 	cv::Mat frame;
 	if (!cap.isOpened()){
 		std::cout<<"Error open camera"<<std::endl;

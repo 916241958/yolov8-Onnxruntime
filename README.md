@@ -1,0 +1,2 @@
+# yolov8-Onnxruntime
+通过onnxruntime实现yolov8在CPU和GPU上面部署
